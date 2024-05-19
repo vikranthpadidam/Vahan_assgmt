@@ -23,9 +23,9 @@ const AllEntities = () => {
     <div className="grid grid-cols-5 gap-4">
       {entities.map((entity) => {
         return (
-          <Link to={`/data/${entity.Tables_in_vikranth}`}>
+          <Link to={`/data/${entity.Tables_in_vahan}`}>
             <button className="btn btn-xs btn-outline sm:btn-sm md:btn-md lg:btn-md w-full">
-              {entity.Tables_in_vikranth}
+              {entity.Tables_in_vahan}
             </button>{" "}
           </Link>
         );
